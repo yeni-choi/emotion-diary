@@ -15,7 +15,7 @@ const Diary = () => {
 
   useEffect(() => {
     const titleElement = document.getElementsByTagName("title")[0];
-    titleElement.innerHTML = `감정 일기장 - ${id}번 일기`;
+    titleElement.innerHTML = `Emotion Diary - #${id} Diary`;
   }, []);
 
   useEffect(() => {
