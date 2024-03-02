@@ -1,0 +1,20 @@
+{
+  "database": {
+    "site": "yeni-react-project",
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
