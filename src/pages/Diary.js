@@ -25,18 +25,17 @@ const Diary = () => {
       );
 
       if (targetDiary) {
-        // 일기가 존재할 때
+        // If diary exists
         setData(targetDiary);
       } else {
-        // 일기가 없을 때
-        alert("없는 일기입니다.");
+        alert("No diary!");
         navigate("/", { replace: true });
       }
     }
   }, [id, diaryList]);
 
   if (!data) {
-    return <div className="DiaryPage">로딩중입니다...</div>;
+    return <div className="DiaryPage">Loading...</div>;
   } else {
     const curEmotionData = emotionList.find(
       (it) => parseInt(it.emotion_id) === parseInt(data.emotion)
@@ -46,20 +45,20 @@ const Diary = () => {
     return (
       <div className="DiaryPage">
         <MyHeader
-          headText={`${getStringDate(new Date(data.date))} 기록`}
+          headText={`${getStringDate(new Date(data.date))} Diary`}
           leftChild={
-            <MyButton text={"< 뒤로가기"} onClick={() => navigate(-1)} />
+            <MyButton text={"< Back"} onClick={() => navigate(-1)} />
           }
           rightChild={
             <MyButton
-              text={"수정하기"}
+              text={"Edit"}
               onClick={() => navigate(`/edit/${data.id}`)}
             />
           }
         />
         <article>
           <section>
-            <h4>오늘의 감정</h4>
+            <h4>Today's Emotion</h4>
             <div
               className={[
                 "diary_img_wrapper",
@@ -73,7 +72,7 @@ const Diary = () => {
             </div>
           </section>
           <section>
-            <h4>오늘의 일기</h4>
+            <h4>Today's Diary</h4>
             <div className="diary_content_wrapper">
               <p>{data.content}</p>
             </div>
