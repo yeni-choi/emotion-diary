@@ -1,12 +1,11 @@
 <div align="center">
   <h1 align="center">📒 Simple Emotion Diary 📒</h1>
-
   <p align="center">
-    Simple Emotion Diary Service Made for React Study! <br>
-    ⭐️➤ [Link](https://yeni-react-project.web.app/) 
+    <b> Simple Emotion Diary Service Made for React Study! </b><br>
   </p>
-</div>
 
+⭐️✏️ [Website Link](https://yeni-react-project.web.app/) 📒
+</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -35,10 +34,10 @@
 Users can write, edit, delete diary entries, and view them organized by month.
 
 ### ✨ Features
-<b> 1. Create New Diary:</b> Users can create new diary entries to record their emotions and experiences.
-<b> 2. Edit Diary:</b> Users can edit existing diary entries to update their emotions and content.
-<b> 3. Delete Diary:</b> Users can delete unwanted diary entries from their records.
-<b> 4. View Diary Details:</b> Users can view their diary entries organized by month to track their emotions over time.
+<b> 1. Create New Diary:</b> Users can create new diary entries to record their emotions and experiences. <br>
+<b> 2. Edit Diary:</b> Users can edit existing diary entries to update their emotions and content.<br>
+<b> 3. Delete Diary:</b> Users can delete unwanted diary entries from their records.<br>
+<b> 4. View Diary Details:</b> Users can view their diary entries organized by month to track their emotions over time.<br>
 
 ### 🗒️ Components
 - <b> App.js <br> </b>
@@ -63,10 +62,10 @@ Component representing individual emotion options.
 
 ### 🔨 Built With
 
-<img src="https://img.shields.io/badge/React-61dbfb?style=flat&logo=React&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
-  <img src="https://img.shields.io/badge/Javascript-ffb13b?style=flat-square&logo=javascript&logoColor=white"/></a>&nbsp
-  <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white"/></a>&nbsp <br>  <img src="https://img.shields.io/badge/firebase-red?style=flat-square&logo=firebase&logoColor=white"/></a>&nbsp
+<img src="https://img.shields.io/badge/React-61dbfb?style=flat&logo=React&logoColor=white" /> 
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
+<img src="https://img.shields.io/badge/Javascript-ffb13b?style=flat-square&logo=javascript&logoColor=white"/></a>&nbsp <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white"/></a>&nbsp <br>
+<img src="https://img.shields.io/badge/firebase-red?style=flat-square&logo=firebase&logoColor=white"/></a>&nbsp
 
 
 
