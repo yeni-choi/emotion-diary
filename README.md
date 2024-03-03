@@ -32,13 +32,13 @@
 
 📒🖍️ Emotion Diary is a simple web application where users can record and manage their emotions.
 Users can write, edit, delete diary entries, and view them organized by month.
-
+<br>
 ### ✨ Features
 <b> 1. Create New Diary:</b> Users can create new diary entries to record their emotions and experiences. <br>
 <b> 2. Edit Diary:</b> Users can edit existing diary entries to update their emotions and content.<br>
 <b> 3. Delete Diary:</b> Users can delete unwanted diary entries from their records.<br>
 <b> 4. View Diary Details:</b> Users can view their diary entries organized by month to track their emotions over time.<br>
-
+<br>
 ### 🗒️ Components
 - <b> App.js <br> </b>
 The main component responsible for managing the overall application state and routing.
